@@ -21,8 +21,8 @@ public class Boletin22 {
         ArrayList<Correo> lista = new ArrayList<>();
         Buzon obx = new Buzon(lista);
         Correo a = new Correo("Como Pedro por su casa",true);
-        Correo b = new Correo("El que las da, las toma",true);
-        Correo c = new Correo("Van dos y se cae el de en medio",true);
+        Correo b = new Correo("El que las da, las toma",false);
+        Correo c = new Correo("Van dos y se cae el de en medio",false);
         Correo d = new Correo("El que parte y reparte, se lleva la mejor parte",true);
         obx.engade(a);
         obx.engade(b);
